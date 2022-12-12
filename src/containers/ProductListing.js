@@ -21,6 +21,7 @@ import axios from 'axios';
 
     useEffect (()=>{
       fetchProducts();
+      console.log("fetch calling")
     },[])
     console.log("products:  ",products);
   return (
